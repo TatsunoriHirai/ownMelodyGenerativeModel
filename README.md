@@ -21,12 +21,14 @@ This repository is for Neural Audio Plugin Competition 2023.
 ![GUI_capture](https://user-images.githubusercontent.com/3185518/225596122-a8c30f61-961e-43d1-8ca2-0171472278da.png)
 
 
+---
 
 - Video: 
 
 https://youtu.be/zENPSFc5lxs
 
 
+---
 
 These codes are implemented by Tatsunori Hirai, Komazawa University, Japan.
 Part of the code for the synthesizer implementation was referred to the audio programmer's tutorial.
