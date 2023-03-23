@@ -1,4 +1,4 @@
-# ownMelodyGenerativeModel
+# Create Music with Your Own Generative Model
 
 This repository is for Neural Audio Plugin Competition 2023.
 
@@ -24,7 +24,6 @@ This repository is for Neural Audio Plugin Competition 2023.
 ---
 
 - Video: 
-
 https://youtu.be/zENPSFc5lxs
 
 
