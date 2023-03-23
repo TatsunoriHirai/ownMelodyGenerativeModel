@@ -268,6 +268,9 @@ def generate(modelFile, inputData, useGPU=False, genLength=16):
         preds = model(x)
         preds = preds.view(preds.shape[1],preds.shape[2])
         nextNote = preds[-1,:].argmax().view(-1)
+        if(nextNote==(inputData.shape[1]-1)): # if EoM
+            print("End of Melody.")
+            break
         outputNotes.append(nextNote.item())
         x = torch.cat([x[1:], nextNote])
         noteLength = preprocess.vecInd2noteLength(nextNote.item())
