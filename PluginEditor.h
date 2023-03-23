@@ -94,8 +94,7 @@ private:
     std::string savePath = "";
     std::string fileName = "training_melody";
     std::string modelPath = "";
-    //std::string exePath = "C:\\Users\\hirait\\Desktop\\train_generate.exe"; // exe file path (generated from python code via pyinstaller)
-    std::string exePath = "C:\\Users\\hirait\\Desktop\\train_generate\\train_generate.exe"; // exe file path (generated from python code via pyinstaller)
+    std::string exePath = "C:\\Users\\train_generate.exe"; // exe file path (generated from python code via pyinstaller)
     std::string modelType = "";
 
     std::vector<std::vector<int>> sortSaveNotes(std::vector<std::vector<int>> saveNotes);
