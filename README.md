@@ -24,6 +24,9 @@ The VST3 file worked with Studio One Professional 5.5.2.86528 Win x64
 ![GUI_capture](https://user-images.githubusercontent.com/3185518/225596122-a8c30f61-961e-43d1-8ca2-0171472278da.png)
 
 
+![screenshot](https://user-images.githubusercontent.com/3185518/227238732-f35b3306-02a6-450e-8b62-54439c4b8f94.png)
+
+
 ---
 
 - Video: 
