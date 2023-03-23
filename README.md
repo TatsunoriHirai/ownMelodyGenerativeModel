@@ -23,6 +23,7 @@ This repository is for Neural Audio Plugin Competition 2023.
 
 
 - Video
+
 https://youtu.be/zENPSFc5lxs
 
 
