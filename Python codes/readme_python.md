@@ -10,14 +10,14 @@ pyinstaller train_generate.py --onefile
 
 use the generated exe file for JUCE project.
 
-- usage of train_generate.exe:
+# usage of train_generate.exe:
 
-# first argument: "train" or "generate"
-# second argument: cpu or gpu
-# third argument: training folder path (train mode) / input melody path (gen mode)
-# fourth argument: model file path (output model file (train) or using model file (gen) )
-# fifth argument: # of epoch (train mode) / # of output note length (gen mode)
-# sixth argument (only for gen mode): output melody file path
+- first argument: "train" or "generate"
+- second argument: cpu or gpu
+- third argument: training folder path (train mode) / input melody path (gen mode)
+- fourth argument: model file path (output model file (train) or using model file (gen) )
+- fifth argument: # of epoch (train mode) / # of output note length (gen mode)
+- sixth argument (only for gen mode): output melody file path
 
 # arg example: 
 args = ["train_generate.exe","train", "GPU","C:/Users/hirait/Desktop/melodyData/", 
@@ -25,10 +25,10 @@ args = ["train_generate.exe","train", "GPU","C:/Users/hirait/Desktop/melodyData/
 args = ["train_generate.exe","generate","GPU", "C:/Users/hirait/Desktop/inputmelody_0.txt", 
         "C:/Users/hirait/Desktop/output.model", "16","C:/Users/hirait/Desktop/outputmelody.txt"]
 
-- training command sample:
+# training command sample:
 "C:/Users/hirait/train_generate/train_generate.exe train GPU C:/Users/hirait/Desktop/melodyData/ C:/Users/hirait/Desktop/output.model LSTM 100"
 
-- generate command sample:
+# generation command sample:
 "C:/Users/hirait/train_generate/train_generate.exe generate GPU C:/Users/hirait/Desktop/inputmelody_0.txt C:/Users/hirait/Desktop/output.model 16 C:/Users/hirait/Desktop/outputmelody.txt"
 
 
