@@ -15,6 +15,9 @@ This repository is for Neural Audio Plugin Competition 2023.
   5. Your original generative model helps you by suggesting a subsequent melody by pressing "gen button"
 
 
+The VST3 file worked with Studio One Professional 5.5.2.86528 Win x64
+
+
 - Screen capture of the GUI:
 
 
